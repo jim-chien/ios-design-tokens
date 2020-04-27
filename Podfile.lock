@@ -1,0 +1,74 @@
+PODS:
+  - MaterialComponents/AnimationTiming (109.0.0)
+  - MaterialComponents/Availability (109.0.0)
+  - MaterialComponents/Buttons (109.0.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Shapes
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Elevation (109.0.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Ink (109.0.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/private/Application (109.0.0)
+  - MaterialComponents/private/Color (109.0.0):
+    - MaterialComponents/Availability
+  - MaterialComponents/private/Math (109.0.0)
+  - MaterialComponents/Ripple (109.0.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/ShadowElevations (109.0.0)
+  - MaterialComponents/ShadowLayer (109.0.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Shapes (109.0.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/Typography (109.0.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
+  - MDFTextAccessibility (2.0.0)
+  - my-design-tokens (1.0.5)
+
+DEPENDENCIES:
+  - MaterialComponents/Buttons
+  - my-design-tokens (from `https://github.com/jim-chien/my-design-tokens.git`, tag `v1.0.5`)
+
+SPEC REPOS:
+  trunk:
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+
+EXTERNAL SOURCES:
+  my-design-tokens:
+    :git: https://github.com/jim-chien/my-design-tokens.git
+    :tag: v1.0.5
+
+CHECKOUT OPTIONS:
+  my-design-tokens:
+    :git: https://github.com/jim-chien/my-design-tokens.git
+    :tag: v1.0.5
+
+SPEC CHECKSUMS:
+  MaterialComponents: efea7f96438838624ea3a4fcc881bfd6b3b0bb7b
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
+  my-design-tokens: 6fbe58afce4089fbaeef6242903324add99809a8
+
+PODFILE CHECKSUM: 9e6565b1df26da9045de6c19f6c0f2dc7bf27a9f
+
+COCOAPODS: 1.9.1
